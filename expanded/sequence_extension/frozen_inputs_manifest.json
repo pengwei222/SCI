@@ -1,0 +1,20 @@
+[
+  {
+    "dataset": 4,
+    "seed": 42,
+    "cases": 271,
+    "bank": "frozen_inputs/dataset04_seed42/bank_selected.npz",
+    "input_sha256": "e6d65237895be0f7b58ec1aae89739f45b2518a99cd06cc9112171db01c6082a",
+    "replay_epochs": 1381,
+    "historical_reference_nonconverged_selected": 0
+  },
+  {
+    "dataset": 5,
+    "seed": 42,
+    "cases": 453,
+    "bank": "frozen_inputs/dataset05_seed42/bank_selected.npz",
+    "input_sha256": "9183b5b8ec89732efc2e9b74b93ee95cbf58ce5ac97980f6a4e0eda09891138d",
+    "replay_epochs": 2291,
+    "historical_reference_nonconverged_selected": 0
+  }
+]

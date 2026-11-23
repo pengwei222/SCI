@@ -1,0 +1,11 @@
+{
+  "python": "3.12.14",
+  "machine": "arm64",
+  "system": "macOS-26.6-arm64-arm-64bit",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "cvxpy": "1.9.3",
+  "clarabel": "0.11.1",
+  "sympy": "1.14.0",
+  "repeats": 3
+}

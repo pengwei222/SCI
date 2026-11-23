@@ -1,0 +1,503 @@
+{
+  "training_dataset": 1,
+  "control_scale": [
+    [
+      0.671912744044079,
+      0.66273216459145
+    ],
+    [
+      0.758354198305675,
+      0.6431731204084752
+    ],
+    [
+      0.8212743014302278,
+      0.72796546151649
+    ],
+    [
+      0.8326434969782781,
+      0.672173865010452
+    ],
+    [
+      0.8988957444544152,
+      0.5790951238970616
+    ]
+  ],
+  "control_bias": [
+    [
+      0.016991831375628673,
+      -0.00299734952935889
+    ],
+    [
+      0.008721878437799495,
+      0.003252489004105859
+    ],
+    [
+      0.006134028302072623,
+      -0.0007283782843758215
+    ],
+    [
+      0.004835375268347385,
+      0.0016157368837911132
+    ],
+    [
+      0.002038836795592838,
+      -0.00013862403450266205
+    ]
+  ],
+  "process_density": [
+    [
+      2.5486265107492172e-05,
+      1e-05,
+      0.0018208972636298234
+    ],
+    [
+      3.0312667478798724e-05,
+      1e-05,
+      0.0017365579070684916
+    ],
+    [
+      2.2178578264318316e-05,
+      1e-05,
+      0.0011236772616905904
+    ],
+    [
+      3.0136271789827526e-05,
+      1e-05,
+      0.0015081395164757909
+    ],
+    [
+      1.908319965327374e-05,
+      1e-05,
+      0.0017034545358812722
+    ]
+  ],
+  "measurement_covariance": [
+    [
+      [
+        0.0014579517820920516,
+        -9.262179667912538e-06
+      ],
+      [
+        -9.262179667912538e-06,
+        0.000746407110950566
+      ]
+    ],
+    [
+      [
+        0.001017249610413955,
+        8.37278314367695e-06
+      ],
+      [
+        8.37278314367695e-06,
+        0.00013878658639239442
+      ]
+    ],
+    [
+      [
+        0.0010773581037057062,
+        -3.282521697254473e-06
+      ],
+      [
+        -3.282521697254473e-06,
+        8.918602067332108e-05
+      ]
+    ],
+    [
+      [
+        0.0007964741035492755,
+        -6.114128534119357e-05
+      ],
+      [
+        -6.114128534119357e-05,
+        0.0001795447559638261
+      ]
+    ],
+    [
+      [
+        0.0009486591880900703,
+        -4.91318651635304e-06
+      ],
+      [
+        -4.91318651635304e-06,
+        8.280576290143752e-05
+      ]
+    ]
+  ],
+  "measurement_bias": [
+    [
+      0.0,
+      -0.004449494966653
+    ],
+    [
+      0.0,
+      0.0012889521802717278
+    ],
+    [
+      0.0,
+      -0.00936120237294547
+    ],
+    [
+      0.0,
+      -0.013441547847879173
+    ],
+    [
+      0.0,
+      -0.0032329503646976363
+    ]
+  ],
+  "calibration_observations": [
+    5723,
+    6699,
+    8740,
+    3980,
+    8791
+  ],
+  "calibration_retained": [
+    5497,
+    6433,
+    8390,
+    3821,
+    8440
+  ],
+  "interpretation": "Dataset1 empirical depth-projection sensor model; split independence and covariance consistency remain unproven. Original process/control calibration unchanged.",
+  "input_sha256": {
+    "Barcodes.dat": "0138e2ae217112de3be9867deaab4bc62ca076a1a46ccb9a21ce46eb67741b37",
+    "Landmark_Groundtruth.dat": "682c416aafb066992e964ef4233ee9054f41f0e18501409bf5efd005fef152d8",
+    "Robot1_Groundtruth.dat": "c6e6f1d4bd241e8612f0947387c8ec1c3a617438e91be38dc2a9cb70a67ff0a9",
+    "Robot1_Odometry.dat": "51a3f6362684a3993c50fcde83fd89eac49f68acd1568cb2f399680b88afab81",
+    "Robot1_Measurement.dat": "3257dd730fe65773e0a093c2aa45da998ab8c790f666d0477f6976d03aef1abf",
+    "Robot2_Groundtruth.dat": "6f18dc6de7925577b74dad293e136743556e5cdd4c3b836bbfb9692a93102fd8",
+    "Robot2_Odometry.dat": "a4c26b277cfdb984f2172560d49dddd4bbddcfedaeaf23daa87928cd8167d1e2",
+    "Robot2_Measurement.dat": "af9746edb6d6023aebb4a09105988db9b530391de2de4f9041ecea30977472e6",
+    "Robot3_Groundtruth.dat": "cd389d151679d8053f58675e1f77a49cc56710d8551c5c8f080e8f902c835380",
+    "Robot3_Odometry.dat": "787fe8b11d2506d764c16db6265b63ce6cca8301bc257a70f1470b46b00dd26f",
+    "Robot3_Measurement.dat": "2ad96e0d6a4fab5ee165ddb946c554ee0d80aeaf4def12621139b48410fb4a84",
+    "Robot4_Groundtruth.dat": "9ab55e17a7d5e1677efe72bf9fa9409aa87869849fd9c02d9ef2555fb9fb19ac",
+    "Robot4_Odometry.dat": "74b824e3cf3ac1dc1b9bcd1623174088256810c64f98d1debd8ac2ed721cfb02",
+    "Robot4_Measurement.dat": "4a8cb16e910b963e3614b12e08ad87a392078df61b5e81dc22074658f5e59568",
+    "Robot5_Groundtruth.dat": "473acf3062890783964aeabc1f9564709e3d96bd34538641f8c387b2e316fea6",
+    "Robot5_Odometry.dat": "689313f51d214ce4d858fbce526b505c08ef5ab850e0758d6163721d0d9064dc",
+    "Robot5_Measurement.dat": "31813e405d86e6a0de5243bea2ce39035f6daef0a54e0fd8949d14333f8a6593"
+  },
+  "range_geometry": [
+    [
+      0.048904493961998,
+      1.0147010027717398,
+      0.0
+    ],
+    [
+      0.0005963968446627277,
+      1.0538700967480288,
+      0.013760215281307947
+    ],
+    [
+      0.04427590331400875,
+      1.0144185399444334,
+      0.010943178367283096
+    ],
+    [
+      0.08959918171955324,
+      1.0167842676358674,
+      0.03356015512863604
+    ],
+    [
+      0.10358006350633923,
+      0.9970377973773914,
+      -0.0324917667716467
+    ]
+  ],
+  "geometry_diagnostics_file": "geometry_calibration.json",
+  "geometry_code_sha256": "311e966a03af8df06e954335faddb97383dc06b1673872ac31b54a1c5788b525",
+  "colored_tau_s": [
+    [
+      7.619969846044419,
+      2.7255355648005977
+    ],
+    [
+      1.0,
+      1.1084481862819815
+    ],
+    [
+      1.0,
+      0.6177278862737006
+    ],
+    [
+      4.012433320856381,
+      4.328899184452816
+    ],
+    [
+      3.1153450235917166,
+      0.5322383420610458
+    ]
+  ],
+  "colored_stationary_covariance": [
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0006985456318496041
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.00010292639979061408
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        8.412574317269711e-05
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0001045552257511252
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        8.159469963150669e-05
+      ]
+    ]
+  ],
+  "colored_white_covariance": [
+    [
+      [
+        0.0014325322544143538,
+        0.0
+      ],
+      [
+        0.0,
+        8.307441903764238e-05
+      ]
+    ],
+    [
+      [
+        0.0008896035416997509,
+        0.0
+      ],
+      [
+        0.0,
+        5.818157641206721e-05
+      ]
+    ],
+    [
+      [
+        0.0009276992145793918,
+        0.0
+      ],
+      [
+        0.0,
+        3.214346544568009e-05
+      ]
+    ],
+    [
+      [
+        0.0005269522686750757,
+        0.0
+      ],
+      [
+        0.0,
+        9.643288824302113e-05
+      ]
+    ],
+    [
+      [
+        0.000568838178493406,
+        0.0
+      ],
+      [
+        0.0,
+        2.500000316119616e-05
+      ]
+    ]
+  ],
+  "colored_parameter_sha256": "548a3950d1231011ad640ceea861f986e015dfd59c1c0e1fb536ce21739f88b9",
+  "colored_policy": "Training-only latent camera bias, original measurement multiplier applies to stationary covariance and white R, original motion model and multiplier unchanged. Bearing-only main candidate selected from training cross-target dependence, before real-data performance; range marginal variance retained as white noise. Range OU disabled; new mean/variance terms fitted only Dataset1. Bearing OU and original multipliers unchanged.",
+  "range_robot_target_offset": 0.026583727887798506,
+  "range_variance_law": {
+    "power": 4,
+    "depth_definition": "max(0, predicted RAW range including camera geometry intercept AND global robot-target offset); evaluate from predicted state, never observed range",
+    "floor_variance": 0.0004,
+    "coefficient": [
+      6.1596409340411894e-06,
+      1.3162421623760664e-06,
+      1.1416215761400064e-06,
+      1.065030977306744e-06,
+      1.1182284439242784e-06
+    ],
+    "fit": "Full Dataset1 range-only retained residual likelihood; thresholds learned from full Dataset1",
+    "covariance_convention": "Replace R[0,0] with this total range residual variance. If preserving base range-bearing correlation, set R[0,1]=rho_base*sqrt(R[0,0]*R[1,1]); rho_base from frozen measurement_covariance. Do not simply preserve absolute off-diagonal without checking PSD. Existing bearing OU mode uses diagonal white covariance and must omit range OU.",
+    "full_threshold": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ]
+  },
+  "range_candidate_provenance": {
+    "training_dataset": 1,
+    "input_sha256": {
+      "Barcodes.dat": "0138e2ae217112de3be9867deaab4bc62ca076a1a46ccb9a21ce46eb67741b37",
+      "Landmark_Groundtruth.dat": "682c416aafb066992e964ef4233ee9054f41f0e18501409bf5efd005fef152d8",
+      "Robot1_Groundtruth.dat": "c6e6f1d4bd241e8612f0947387c8ec1c3a617438e91be38dc2a9cb70a67ff0a9",
+      "Robot1_Measurement.dat": "3257dd730fe65773e0a093c2aa45da998ab8c790f666d0477f6976d03aef1abf",
+      "Robot1_Odometry.dat": "51a3f6362684a3993c50fcde83fd89eac49f68acd1568cb2f399680b88afab81",
+      "Robot2_Groundtruth.dat": "6f18dc6de7925577b74dad293e136743556e5cdd4c3b836bbfb9692a93102fd8",
+      "Robot2_Measurement.dat": "af9746edb6d6023aebb4a09105988db9b530391de2de4f9041ecea30977472e6",
+      "Robot2_Odometry.dat": "a4c26b277cfdb984f2172560d49dddd4bbddcfedaeaf23daa87928cd8167d1e2",
+      "Robot3_Groundtruth.dat": "cd389d151679d8053f58675e1f77a49cc56710d8551c5c8f080e8f902c835380",
+      "Robot3_Measurement.dat": "2ad96e0d6a4fab5ee165ddb946c554ee0d80aeaf4def12621139b48410fb4a84",
+      "Robot3_Odometry.dat": "787fe8b11d2506d764c16db6265b63ce6cca8301bc257a70f1470b46b00dd26f",
+      "Robot4_Groundtruth.dat": "9ab55e17a7d5e1677efe72bf9fa9409aa87869849fd9c02d9ef2555fb9fb19ac",
+      "Robot4_Measurement.dat": "4a8cb16e910b963e3614b12e08ad87a392078df61b5e81dc22074658f5e59568",
+      "Robot4_Odometry.dat": "74b824e3cf3ac1dc1b9bcd1623174088256810c64f98d1debd8ac2ed721cfb02",
+      "Robot5_Groundtruth.dat": "473acf3062890783964aeabc1f9564709e3d96bd34538641f8c387b2e316fea6",
+      "Robot5_Measurement.dat": "31813e405d86e6a0de5243bea2ce39035f6daef0a54e0fd8949d14333f8a6593",
+      "Robot5_Odometry.dat": "689313f51d214ce4d858fbce526b505c08ef5ab850e0758d6163721d0d9064dc"
+    },
+    "base_calibration_sha256": "c0fe88514e6751edc01bbf0b3164e595b9b624f05c128070a438e072273b8446",
+    "code_sha256": "6b34712589d6e2b0862102feb6fe32faf1fa8de77e074cbe8a0d00f2cebd7361"
+  },
+  "range_candidate_variant": "combined",
+  "sensor_candidate_sha256": "518e28a470486a8b9b26a56f22e32031dac07b9f1b59a5ce7754425ae724f841",
+  "motion_response": {
+    "training_dataset": 1,
+    "family": "stop_gated_first_order",
+    "tau_seconds": 0.2,
+    "delay_seconds": 0.0,
+    "coef": [
+      [
+        [
+          0.5887601802241472,
+          0.023102951809630453
+        ],
+        [
+          0.9739693230308096,
+          0.007008531341120252
+        ]
+      ],
+      [
+        [
+          0.7247659297956413,
+          0.011623373763799714
+        ],
+        [
+          0.917899336620989,
+          0.01102220240156876
+        ]
+      ],
+      [
+        [
+          0.6285705114771895,
+          0.01942175457051178
+        ],
+        [
+          0.9769739780886687,
+          0.0015942005797463746
+        ]
+      ],
+      [
+        [
+          0.43670565292473557,
+          0.033312552434639375
+        ],
+        [
+          0.9605885084822321,
+          0.004846566031641414
+        ]
+      ],
+      [
+        [
+          0.5498849502072404,
+          0.02591502417600369
+        ],
+        [
+          0.9188829754058035,
+          0.0023280012114408376
+        ]
+      ]
+    ],
+    "process_density": [
+      [
+        2.5486265107492172e-05,
+        1e-05,
+        0.0018208972636298234
+      ],
+      [
+        3.0312667478798724e-05,
+        1e-05,
+        0.0017365579070684916
+      ],
+      [
+        2.2178578264318316e-05,
+        1e-05,
+        0.0011236772616905904
+      ],
+      [
+        3.0136271789827526e-05,
+        1e-05,
+        0.0015081395164757909
+      ],
+      [
+        1.908319965327374e-05,
+        1e-05,
+        0.0017034545358812722
+      ]
+    ],
+    "process_multiplier": 4,
+    "mean_only_ablation": true,
+    "selection": "Exploratory first-half equal-weight robot/axis normalized clipped MSE; second-half not used for choosing tau. Near tie with delay .2; no unique identification of lag mechanism.",
+    "first_half_scores": {
+      "affine": 1.0,
+      "stop": 0.9757827974927086,
+      "proportional": 1.0391116348834033,
+      "delay_-0.2": 1.193859808218076,
+      "delay_-0.1": 1.135863078867233,
+      "delay_0.05": 0.8551912746155249,
+      "delay_0.1": 0.7419487876745722,
+      "delay_0.2": 0.6646046704545967,
+      "delay_0.4": 0.9578857576557486,
+      "lowpass_0.05": 0.8392106602034033,
+      "lowpass_0.1": 0.7413616323474338,
+      "lowpass_0.2": 0.6635949669485959,
+      "lowpass_0.4": 0.6717984486927195,
+      "lowpass_0.8": 0.7702531188776621
+    },
+    "input_sha256": {
+      "Robot1_Odometry.dat": "51a3f6362684a3993c50fcde83fd89eac49f68acd1568cb2f399680b88afab81",
+      "Robot1_Groundtruth.dat": "c6e6f1d4bd241e8612f0947387c8ec1c3a617438e91be38dc2a9cb70a67ff0a9",
+      "Robot2_Odometry.dat": "a4c26b277cfdb984f2172560d49dddd4bbddcfedaeaf23daa87928cd8167d1e2",
+      "Robot2_Groundtruth.dat": "6f18dc6de7925577b74dad293e136743556e5cdd4c3b836bbfb9692a93102fd8",
+      "Robot3_Odometry.dat": "787fe8b11d2506d764c16db6265b63ce6cca8301bc257a70f1470b46b00dd26f",
+      "Robot3_Groundtruth.dat": "cd389d151679d8053f58675e1f77a49cc56710d8551c5c8f080e8f902c835380",
+      "Robot4_Odometry.dat": "74b824e3cf3ac1dc1b9bcd1623174088256810c64f98d1debd8ac2ed721cfb02",
+      "Robot4_Groundtruth.dat": "9ab55e17a7d5e1677efe72bf9fa9409aa87869849fd9c02d9ef2555fb9fb19ac",
+      "Robot5_Odometry.dat": "689313f51d214ce4d858fbce526b505c08ef5ab850e0758d6163721d0d9064dc",
+      "Robot5_Groundtruth.dat": "473acf3062890783964aeabc1f9564709e3d96bd34538641f8c387b2e316fea6"
+    }
+  }
+}

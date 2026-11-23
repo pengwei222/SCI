@@ -1,0 +1,88 @@
+{
+  "frozen_utc": "2026-11-16T02:56:37.964744+00:00",
+  "purpose": "Additional recorded sequence validation of the unchanged model and solver inputs",
+  "datasets": [
+    4,
+    5
+  ],
+  "seeds": [
+    42
+  ],
+  "split": {
+    "training": 1,
+    "development": 2,
+    "previous_holdout": 3,
+    "additional_recorded_sequences": [
+      4,
+      5
+    ]
+  },
+  "unit_of_independent_recording": "MRCLAM Dataset number; epochs and seeds are not independent sequences",
+  "model": "Unchanged archived Round4 causal stop-gated response model, tau 0.2, D1-fitted coefficients",
+  "state_dimension": 25,
+  "pose_dimension": 15,
+  "sensors": 5,
+  "selection": "epoch % 5 == 0 and time >= 30 seconds; no selection by convergence, accuracy, or runtime",
+  "full_recording": true,
+  "max_seconds": null,
+  "calibration_or_model_retuning": false,
+  "source_solver_changes": false,
+  "replay_feedback": "Historical frozen reference solve, tolerance 1e-7, maxiter 150; even nonconverged epochs retained",
+  "source_archive": "SCI_Motion_Response_Validation_2026-11-06.zip",
+  "frozen_source_sha256": {
+    "round4_motion/calibration_response.json": "28758421c0e3d9849aa15f453cd994c3c6e1de209e916a31a72500b0a0b10163",
+    "round4_motion/source_motion/configs/default.json": "c82c64cbfc3e92d9db76b5a77cea6da36516e5cefcfd166e2094b3ce674d1211",
+    "round4_motion/source_motion/run.py": "5150d5399ba73178db822edbffff0191f98db0f7eaeea3bd7ff956663057c12f",
+    "round4_motion/source_motion/sciexp/__init__.py": "81b85f686d8ff0e4626684cc118e782c379eb609183c7401e626952c5081f817",
+    "round4_motion/source_motion/sciexp/benchmark.py": "9c8e65971f5d3faee05f98d710ac42ce6afb7d92a26b42ab5e6f2780783726c8",
+    "round4_motion/source_motion/sciexp/core.py": "314bf03155d84627e8090d3d2e60cfea16c5a12f433bd09cec69c4a80b76a967",
+    "round4_motion/source_motion/sciexp/data.py": "6a5cb2665e1b91341d22cb65df9fd9930a08c8132fed67e24d79178da8b0249c",
+    "round4_motion/source_motion/sciexp/motion.py": "9c601cedd8b340f119ce05536391ea9f78dc6a63ed02cbf31dd11bcff2545e5e",
+    "round4_motion/source_motion/sciexp/replay.py": "b0aba049e1a32d5e5e895d4f2a60d24650967289d480d825bc8ca9d9cf7a7a89"
+  },
+  "archived_protocol_sha256": "5937df1998bda5713a160908e8e361848e14401d88bf8e88fdf5d39fd877c321",
+  "configuration": {
+    "training_dataset": 1,
+    "validation_datasets": [
+      2
+    ],
+    "test_datasets": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "fusion_period": 1.0,
+    "motion_step": 0.05,
+    "heading_length": 1.0,
+    "process_inflation": 4.0,
+    "measurement_inflation": 2.0,
+    "innovation_gate": 13.815510557964274,
+    "initial_position_sd": 0.1,
+    "initial_heading_sd": 0.08726646259971647,
+    "reference_tolerance": 1e-07,
+    "max_iterations": 150,
+    "benchmark_stride": 5,
+    "tolerances": [
+      0.01,
+      0.001,
+      0.0001
+    ],
+    "timing_repeats": 3,
+    "seeds": [
+      42
+    ],
+    "burn_in_seconds": 30.0,
+    "objective": "trace"
+  },
+  "raw_source": {
+    "official": "https://asrl.utias.utoronto.ca/datasets/mrclam/index.html",
+    "mirror_repo": "doclorenzo/SLAM-Project",
+    "mirror_commit": "729e8e35c27e9cfcd86ecefa294fca86aa59e576",
+    "official_checksums_verified": false
+  },
+  "reporting": "Retain failed or inaccurate epochs. These tests cannot by themselves prove nonlinear filter consistency."
+}

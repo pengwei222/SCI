@@ -1,0 +1,153 @@
+{
+  "purpose": "Ancillary descriptive diagnostics of frozen historical feedback; not solver timing or causal SCI attribution",
+  "selection": "epoch%5==0 and time>=30; all selected epochs retained, no accuracy/convergence filtering",
+  "diagnostic_scope": "Descriptive summaries added after replay protocol was frozen; not a predeclared primary consistency hypothesis test",
+  "position_rmse_definition": "sqrt(mean over robot-epochs of squared 2D position-error Euclidean norm)",
+  "position_nees_definition": "2D error transpose times inverse marginal position covariance times error",
+  "coverage_threshold_chi2_df2_95": 5.991464547107982,
+  "statistical_caution": "Epochs and robots may be dependent; no IID confidence interval or significance claim. Ellipse containment alone is not a nonlinear filter consistency proof.",
+  "datasets": [
+    {
+      "dataset": 4,
+      "seed": 42,
+      "selected_epochs": 271,
+      "selected_input_sha256": "e6d65237895be0f7b58ec1aae89739f45b2518a99cd06cc9112171db01c6082a",
+      "historical_reference_converged_count": 271,
+      "historical_reference_nonconverged_count": 0,
+      "historical_reference_max_gap": 9.98622065040422e-08,
+      "historical_reference_p95_gap": 9.50049176551282e-08,
+      "pooled_robot_epoch": {
+        "position_rmse_m": 0.04056058141443199,
+        "mean_position_error_m": 0.02892506618748143,
+        "mean_position_nees": 3.6505002856498954,
+        "p95_position_nees": 12.372563619174741,
+        "coverage95_fraction": 0.8162361623616237,
+        "coverage95_count": 1106,
+        "observations": 1355
+      },
+      "per_robot": [
+        {
+          "robot": 1,
+          "position_rmse_m": 0.0273473004181261,
+          "mean_position_error_m": 0.022973779361792793,
+          "mean_position_nees": 2.3954420673295833,
+          "p95_position_nees": 8.509735016484122,
+          "coverage95_fraction": 0.8745387453874539,
+          "coverage95_count": 237,
+          "observations": 271
+        },
+        {
+          "robot": 2,
+          "position_rmse_m": 0.027375133419422982,
+          "mean_position_error_m": 0.02376446979119751,
+          "mean_position_nees": 2.3097709707616403,
+          "p95_position_nees": 8.073513313813734,
+          "coverage95_fraction": 0.9188191881918819,
+          "coverage95_count": 249,
+          "observations": 271
+        },
+        {
+          "robot": 3,
+          "position_rmse_m": 0.053966014456376554,
+          "mean_position_error_m": 0.032906205004174,
+          "mean_position_nees": 4.834234600605593,
+          "p95_position_nees": 13.734018883160626,
+          "coverage95_fraction": 0.7564575645756457,
+          "coverage95_count": 205,
+          "observations": 271
+        },
+        {
+          "robot": 4,
+          "position_rmse_m": 0.045026316587871366,
+          "mean_position_error_m": 0.03216110427280698,
+          "mean_position_nees": 2.927896422784497,
+          "p95_position_nees": 11.266282612870594,
+          "coverage95_fraction": 0.8708487084870848,
+          "coverage95_count": 236,
+          "observations": 271
+        },
+        {
+          "robot": 5,
+          "position_rmse_m": 0.04229457591365961,
+          "mean_position_error_m": 0.03281977250743585,
+          "mean_position_nees": 5.7851573667681615,
+          "p95_position_nees": 18.441608024824426,
+          "coverage95_fraction": 0.6605166051660517,
+          "coverage95_count": 179,
+          "observations": 271
+        }
+      ]
+    },
+    {
+      "dataset": 5,
+      "seed": 42,
+      "selected_epochs": 453,
+      "selected_input_sha256": "9183b5b8ec89732efc2e9b74b93ee95cbf58ce5ac97980f6a4e0eda09891138d",
+      "historical_reference_converged_count": 453,
+      "historical_reference_nonconverged_count": 0,
+      "historical_reference_max_gap": 9.962726810197609e-08,
+      "historical_reference_p95_gap": 9.176076383177189e-08,
+      "pooled_robot_epoch": {
+        "position_rmse_m": 0.6440653711296651,
+        "mean_position_error_m": 0.138529839037817,
+        "mean_position_nees": 354.0732357093078,
+        "p95_position_nees": 19.524208661915885,
+        "coverage95_fraction": 0.7487858719646799,
+        "coverage95_count": 1696,
+        "observations": 2265
+      },
+      "per_robot": [
+        {
+          "robot": 1,
+          "position_rmse_m": 0.11919844749655348,
+          "mean_position_error_m": 0.0688235534506571,
+          "mean_position_nees": 4.910258944364164,
+          "p95_position_nees": 17.929716341899454,
+          "coverage95_fraction": 0.7527593818984547,
+          "coverage95_count": 341,
+          "observations": 453
+        },
+        {
+          "robot": 2,
+          "position_rmse_m": 0.23513023728740623,
+          "mean_position_error_m": 0.08242385493252553,
+          "mean_position_nees": 31.67896442229699,
+          "p95_position_nees": 15.379416999044887,
+          "coverage95_fraction": 0.8189845474613686,
+          "coverage95_count": 371,
+          "observations": 453
+        },
+        {
+          "robot": 3,
+          "position_rmse_m": 0.40090029899453045,
+          "mean_position_error_m": 0.12059861433042683,
+          "mean_position_nees": 41.14380099967853,
+          "p95_position_nees": 22.060426421046856,
+          "coverage95_fraction": 0.7108167770419426,
+          "coverage95_count": 322,
+          "observations": 453
+        },
+        {
+          "robot": 4,
+          "position_rmse_m": 0.08957950569665868,
+          "mean_position_error_m": 0.06134858219068431,
+          "mean_position_nees": 3.7123226369437288,
+          "p95_position_nees": 12.355004819967071,
+          "coverage95_fraction": 0.7924944812362031,
+          "coverage95_count": 359,
+          "observations": 453
+        },
+        {
+          "robot": 5,
+          "position_rmse_m": 1.3549394730004674,
+          "mean_position_error_m": 0.3594545902847911,
+          "mean_position_nees": 1688.9208315432559,
+          "p95_position_nees": 1711.2532743196784,
+          "coverage95_fraction": 0.6688741721854304,
+          "coverage95_count": 303,
+          "observations": 453
+        }
+      ]
+    }
+  ]
+}

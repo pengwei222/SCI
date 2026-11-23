@@ -1,0 +1,33 @@
+{
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "/opt/pyvenv/lib/python3.13/site-packages/numpy.libs/libscipy_openblas64_-fdde5778.so",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "/opt/pyvenv/lib/python3.13/site-packages/scipy.libs/libscipy_openblas-6cdc3b4a.so",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    }
+  ],
+  "main_elapsed_seconds": 9.770167981999975,
+  "timing_repetitions": 3,
+  "instances": 96,
+  "optimization_problems": 192,
+  "candidate_tests": 960
+}

@@ -1,0 +1,4 @@
+CPU model exposed by runtime: AMD EPYC 9V74 80-Core Processor
+BLAS threads: 1. Exact software and threadpool metadata are in every results/*/manifest.json.
+Formal suites were sequential; replay and figure generation did not run during timing.
+The host is a shared virtual runtime; absolute timings are hardware/environment-specific.

@@ -1,0 +1,15 @@
+dataset,seed,epoch,time,eta,rule,reference_boundary,f,fw_gap,gq_gap,effective_gap,tightening_ratio,objective_gap_lower,objective_gap_upper,reference_gap,b,inner_gap,certificate_failed,error,bound_violation,reference_resolution_sufficient
+3,42,875,876.0,0.1,vertex,False,1.0,0.0,,0.0,1.0,0.0,0.0,0.0,,,True,LinAlgError: 2 eigenvectors failed to converge.,False,True
+3,42,875,876.0,0.03,vertex,False,1.0,0.0,,0.0,1.0,0.0,0.0,0.0,,,True,LinAlgError: 2 eigenvectors failed to converge.,False,True
+3,42,875,876.0,0.01,vertex,False,1.0,0.0,,0.0,1.0,0.0,0.0,0.0,,,True,LinAlgError: 2 eigenvectors failed to converge.,False,True
+3,42,875,876.0,0.003,vertex,False,1.0,0.0,,0.0,1.0,0.0,0.0,0.0,,,True,LinAlgError: 2 eigenvectors failed to converge.,False,True
+3,42,875,876.0,0.001,vertex,False,1.0,0.0,,0.0,1.0,0.0,0.0,0.0,,,True,LinAlgError: 2 eigenvectors failed to converge.,False,True
+3,42,875,876.0,0.0003,vertex,False,1.0,0.0,,0.0,1.0,0.0,0.0,0.0,,,True,LinAlgError: 2 eigenvectors failed to converge.,False,True
+3,42,875,876.0,0.0001,vertex,False,1.0,0.0,,0.0,1.0,0.0,0.0,0.0,,,True,LinAlgError: 2 eigenvectors failed to converge.,False,True
+3,43,875,876.0,0.1,vertex,False,1.0,0.0,,0.0,1.0,0.0,0.0,0.0,,,True,LinAlgError: 2 eigenvectors failed to converge.,False,True
+3,43,875,876.0,0.03,vertex,False,1.0,0.0,,0.0,1.0,0.0,0.0,0.0,,,True,LinAlgError: 2 eigenvectors failed to converge.,False,True
+3,43,875,876.0,0.01,vertex,False,1.0,0.0,,0.0,1.0,0.0,0.0,0.0,,,True,LinAlgError: 2 eigenvectors failed to converge.,False,True
+3,43,875,876.0,0.003,vertex,False,1.0,0.0,,0.0,1.0,0.0,0.0,0.0,,,True,LinAlgError: 2 eigenvectors failed to converge.,False,True
+3,43,875,876.0,0.001,vertex,False,1.0,0.0,,0.0,1.0,0.0,0.0,0.0,,,True,LinAlgError: 2 eigenvectors failed to converge.,False,True
+3,43,875,876.0,0.0003,vertex,False,1.0,0.0,,0.0,1.0,0.0,0.0,0.0,,,True,LinAlgError: 2 eigenvectors failed to converge.,False,True
+3,43,875,876.0,0.0001,vertex,False,1.0,0.0,,0.0,1.0,0.0,0.0,0.0,,,True,LinAlgError: 2 eigenvectors failed to converge.,False,True

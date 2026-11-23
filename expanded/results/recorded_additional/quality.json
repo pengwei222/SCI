@@ -1,0 +1,15 @@
+{
+  "rows": 60816,
+  "unique_inputs": 724,
+  "successes": 60816,
+  "failed": 0,
+  "solver_nonconverged": 0,
+  "reference_unresolved": 0,
+  "accuracy_upper_unconfirmed": 0,
+  "bound_violations": 0,
+  "max_reference_gap": 9.933890376956356e-10,
+  "max_oracle_f_error": 2.5757174171303632e-14,
+  "max_covariance_relative_error": 2.4889822280018752e-14,
+  "max_fused_relative_error": 3.286473954678487e-14,
+  "numerical_not_interval": true
+}

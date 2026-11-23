@@ -1,0 +1,110 @@
+{
+  "frozen_utc": "2026-11-06T09:36:01.357209+00:00",
+  "training_dataset": 1,
+  "previously_explored_dataset": 2,
+  "new_unscored_holdout": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "candidate": "Dataset1 selected causal stop-gated first-order response tau0.2, full training coefficients; only motion mean changes",
+  "controls": "All actual held-command changes, measurement times, epoch boundaries and max .05 step. Continuous causal response history initialized from first command; no truth or feedback reset.",
+  "matched_ablation": "Same changed-command ticks, original affine mean and original calibration; distinguish integration effects",
+  "unchanged": [
+    "Round3 depth power4 sensor mean/variance, targetclass offset and bearing OU",
+    "original process_density and process multiplier4",
+    "measurement multiplier2, gates, reference solver and pose-only objective"
+  ],
+  "metrics": "Primary original stride5 epochs, time>=30s, per-robot 2D NEES chi2_2=5.991464547; full-after30 secondary. 3 seeds initialization only, not independent datasets.",
+  "jobs": [
+    [
+      "train_response",
+      1,
+      [
+        42
+      ]
+    ],
+    [
+      "development_matched",
+      2,
+      [
+        42
+      ]
+    ],
+    [
+      "development_response",
+      2,
+      [
+        42
+      ]
+    ],
+    [
+      "holdout_original",
+      3,
+      [
+        42
+      ]
+    ],
+    [
+      "holdout_previous",
+      3,
+      [
+        42,
+        43,
+        44
+      ]
+    ],
+    [
+      "holdout_matched",
+      3,
+      [
+        42
+      ]
+    ],
+    [
+      "holdout_response",
+      3,
+      [
+        42,
+        43,
+        44
+      ]
+    ]
+  ],
+  "selection": "No holdout-driven coefficients, Q/R inflation, candidate switching or thresholds. Retain negative results.",
+  "hashes": {
+    "motion_response/fit_motion.py": "3d92106ad20994250f1564bb691f92b0f13b2d66993c0c57c086a0e18f006ceb",
+    "motion_response/motion_calibration.json": "445215d13ed9153c9c937ebcaccfa937220c1a5481898501886a25135fb23032",
+    "motion_response/response_model.py": "25ca17c06bd2bbac5d745c7147e5303ac4266a0e60c5cc28c0b7acf32593e159",
+    "round4_motion/calibration_matched.json": "3e580fdc980d4bbc8394fc6b97642febceef999ff57a091260008749fbfbc699",
+    "round4_motion/calibration_response.json": "28758421c0e3d9849aa15f453cd994c3c6e1de209e916a31a72500b0a0b10163",
+    "round4_motion/raw_manifest_ds3.json": "2940ab47e6f98c68482caf5d67cb910b8a34c3dd7d5462c1168c33c7eae6a6dc",
+    "round4_motion/source_motion/configs/default.json": "c82c64cbfc3e92d9db76b5a77cea6da36516e5cefcfd166e2094b3ce674d1211",
+    "round4_motion/source_motion/run.py": "5150d5399ba73178db822edbffff0191f98db0f7eaeea3bd7ff956663057c12f",
+    "round4_motion/source_motion/sciexp/__init__.py": "81b85f686d8ff0e4626684cc118e782c379eb609183c7401e626952c5081f817",
+    "round4_motion/source_motion/sciexp/benchmark.py": "9c8e65971f5d3faee05f98d710ac42ce6afb7d92a26b42ab5e6f2780783726c8",
+    "round4_motion/source_motion/sciexp/core.py": "314bf03155d84627e8090d3d2e60cfea16c5a12f433bd09cec69c4a80b76a967",
+    "round4_motion/source_motion/sciexp/data.py": "6a5cb2665e1b91341d22cb65df9fd9930a08c8132fed67e24d79178da8b0249c",
+    "round4_motion/source_motion/sciexp/motion.py": "9c601cedd8b340f119ce05536391ea9f78dc6a63ed02cbf31dd11bcff2545e5e",
+    "round4_motion/source_motion/sciexp/replay.py": "b0aba049e1a32d5e5e895d4f2a60d24650967289d480d825bc8ca9d9cf7a7a89",
+    "SCI_Barcode_Repair/source_snapshot/run.py": "5150d5399ba73178db822edbffff0191f98db0f7eaeea3bd7ff956663057c12f",
+    "SCI_Barcode_Repair/source_snapshot/sciexp/data.py": "6a5cb2665e1b91341d22cb65df9fd9930a08c8132fed67e24d79178da8b0249c",
+    "SCI_Barcode_Repair/source_snapshot/sciexp/benchmark.py": "9c8e65971f5d3faee05f98d710ac42ce6afb7d92a26b42ab5e6f2780783726c8",
+    "SCI_Barcode_Repair/source_snapshot/sciexp/core.py": "f21dc74500274b15bcabd13a27e66638bfdcd144f9fd4af8daad048eb95b5a10",
+    "SCI_Barcode_Repair/source_snapshot/sciexp/replay.py": "c2c4eecc624701cb24f27011e8e87f261aaea6f958e388ab94b52a925e98eb52",
+    "SCI_Barcode_Repair/source_snapshot/sciexp/__init__.py": "81b85f686d8ff0e4626684cc118e782c379eb609183c7401e626952c5081f817",
+    "SCI_Barcode_Repair/source_snapshot/configs/default.json": "c82c64cbfc3e92d9db76b5a77cea6da36516e5cefcfd166e2094b3ce674d1211",
+    "round3_sensor/source_sensor/run.py": "5150d5399ba73178db822edbffff0191f98db0f7eaeea3bd7ff956663057c12f",
+    "round3_sensor/source_sensor/sciexp/data.py": "6a5cb2665e1b91341d22cb65df9fd9930a08c8132fed67e24d79178da8b0249c",
+    "round3_sensor/source_sensor/sciexp/benchmark.py": "9c8e65971f5d3faee05f98d710ac42ce6afb7d92a26b42ab5e6f2780783726c8",
+    "round3_sensor/source_sensor/sciexp/core.py": "314bf03155d84627e8090d3d2e60cfea16c5a12f433bd09cec69c4a80b76a967",
+    "round3_sensor/source_sensor/sciexp/replay.py": "8ca60ddbc923500f803cf5063f0c4c78e47c4c317274d1cb8d86a7b4ce87b825",
+    "round3_sensor/source_sensor/sciexp/__init__.py": "81b85f686d8ff0e4626684cc118e782c379eb609183c7401e626952c5081f817",
+    "round3_sensor/source_sensor/configs/default.json": "c82c64cbfc3e92d9db76b5a77cea6da36516e5cefcfd166e2094b3ce674d1211",
+    "SCI_Barcode_Repair/calibration_fixed.json": "0eea4e303419a2516df13993592cf085e4b3c32247963517904923543e24b1c8",
+    "round3_sensor/calibration_combined_p4.json": "3e580fdc980d4bbc8394fc6b97642febceef999ff57a091260008749fbfbc699"
+  },
+  "comparator_hashes_added_utc": "2026-11-06T09:37:10.869447+00:00",
+  "freeze_note": "Comparator source hashes appended before holdout jobs began and before any full-run metrics were read; comparator files already frozen in earlier rounds. No model or protocol decision changed."
+}

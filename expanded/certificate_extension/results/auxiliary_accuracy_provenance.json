@@ -1,0 +1,13 @@
+{
+  "scope": "Ancillary after-run diagnosis; same frozen candidate, gradient, Hessian and scale; original and active QP only",
+  "primary_outputs_modified": false,
+  "candidate_rows": 1036,
+  "inputs": 259,
+  "sources": {
+    "original_core.py": "314bf03155d84627e8090d3d2e60cfea16c5a12f433bd09cec69c4a80b76a967",
+    "diagnostic_active_core.py": "2d86f7f671f81a79d8e3758fecd9285c8af9089aaccaea95a35e7141168f8630",
+    "diagnose_inner_accuracy.py": "bb2a7466d493cd944e97cfdde1715f2d7354efce27d29fff7da2894244e23351"
+  },
+  "observed_bound_violations": 0,
+  "exact_arithmetic": false
+}

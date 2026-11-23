@@ -1,0 +1,21 @@
+{
+  "training_dataset": 1,
+  "validation_datasets": [2],
+  "test_datasets": [3, 4, 5, 6, 7, 8, 9],
+  "fusion_period": 1.0,
+  "motion_step": 0.05,
+  "heading_length": 1.0,
+  "process_inflation": 4.0,
+  "measurement_inflation": 2.0,
+  "innovation_gate": 13.815510557964274,
+  "initial_position_sd": 0.1,
+  "initial_heading_sd": 0.08726646259971647,
+  "reference_tolerance": 1e-7,
+  "max_iterations": 150,
+  "benchmark_stride": 5,
+  "tolerances": [0.01, 0.001, 0.0001],
+  "timing_repeats": 3,
+  "seeds": [42],
+  "burn_in_seconds": 30.0,
+  "objective": "trace"
+}

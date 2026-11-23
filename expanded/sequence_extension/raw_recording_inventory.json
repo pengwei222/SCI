@@ -1,0 +1,52 @@
+[
+  {
+    "dataset": 4,
+    "replay_start_unix": 1248297561.374,
+    "replay_end_unix": 1248298943.29,
+    "replay_start_utc": "2009-07-22T21:19:21.374000+00:00",
+    "duration_seconds": 1381.9159998893738,
+    "expected_complete_epochs": 1381,
+    "expected_selected_epochs": 271,
+    "groundtruth_rows": [
+      104683,
+      86623,
+      88599,
+      88111,
+      90400
+    ],
+    "odometry_rows": [
+      107038,
+      93427,
+      95811,
+      92424,
+      91544
+    ],
+    "valid_measurements": 39406,
+    "unknown_barcodes": 9
+  },
+  {
+    "dataset": 5,
+    "replay_start_unix": 1248362858.579,
+    "replay_end_unix": 1248365149.927,
+    "replay_start_utc": "2009-07-23T15:27:38.579000+00:00",
+    "duration_seconds": 2291.348000049591,
+    "expected_complete_epochs": 2291,
+    "expected_selected_epochs": 453,
+    "groundtruth_rows": [
+      145098,
+      144611,
+      145769,
+      142416,
+      145901
+    ],
+    "odometry_rows": [
+      167613,
+      167063,
+      164561,
+      159402,
+      166166
+    ],
+    "valid_measurements": 47624,
+    "unknown_barcodes": 9
+  }
+]

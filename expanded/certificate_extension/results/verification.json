@@ -1,0 +1,47 @@
+{
+  "inputs": 1246,
+  "candidates": 8722,
+  "evaluations": 17444,
+  "anchors": 7476,
+  "anchor_matches": 7476,
+  "anchor_failures": 0,
+  "certificate_failures": 14,
+  "bound_violations": 0,
+  "max_reference_gap": 4.510826467907236e-08,
+  "max_reconstructed_reference_f_delta": 1.1102230246251565e-16,
+  "elapsed_seconds": 68.9849263319993,
+  "source_unchanged": true,
+  "note": "Float64 engineering checks; old reference resolution is not assumed exact near optimum.",
+  "anchor_max_deltas": {
+    "f_abs_delta": 1.1102230246251565e-16,
+    "fw_gap_abs_delta": 9.990923019453923e-17,
+    "gq_gap_abs_delta": 9.986857261307103e-17,
+    "effective_gap_abs_delta": 9.986857261307103e-17,
+    "tightening_ratio_abs_delta": 9.094947017729282e-13,
+    "b_abs_delta": 9.094947017729282e-13,
+    "inner_gap_abs_delta": 1.0587911840678754e-22
+  },
+  "original_summary_max_abs_delta": 4.440892098500626e-16,
+  "geometry_counts": [
+    {
+      "dataset": 2,
+      "boundary": false,
+      "cases": 94
+    },
+    {
+      "dataset": 2,
+      "boundary": true,
+      "cases": 270
+    },
+    {
+      "dataset": 3,
+      "boundary": false,
+      "cases": 165
+    },
+    {
+      "dataset": 3,
+      "boundary": true,
+      "cases": 717
+    }
+  ]
+}

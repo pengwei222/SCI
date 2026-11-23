@@ -1,0 +1,29 @@
+{
+  "D2_D3_source": "06_earlier_experiments/new_trajectory_certificates/reference_inputs.csv",
+  "D2_D3_source_sha256": "f10848d2a9dfc0721040c30707f59e26921cc7028c6d3f23a4fc30dcb6722177",
+  "selection": "All 1246 rows; only reference/uniform position diagnostic columns retained",
+  "D4_D5": [
+    {
+      "dataset": 4,
+      "source_sha256": "e6d65237895be0f7b58ec1aae89739f45b2518a99cd06cc9112171db01c6082a",
+      "retained_arrays": [
+        "epoch",
+        "truth",
+        "ref_mean",
+        "ref_P"
+      ],
+      "values_changed": false
+    },
+    {
+      "dataset": 5,
+      "source_sha256": "9183b5b8ec89732efc2e9b74b93ee95cbf58ce5ac97980f6a4e0eda09891138d",
+      "retained_arrays": [
+        "epoch",
+        "truth",
+        "ref_mean",
+        "ref_P"
+      ],
+      "values_changed": false
+    }
+  ]
+}

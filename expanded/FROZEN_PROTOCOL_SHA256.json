@@ -1,0 +1,11 @@
+{
+  "original_core.py": "314bf03155d84627e8090d3d2e60cfea16c5a12f433bd09cec69c4a80b76a967",
+  "optimized_core.py": "2d86f7f671f81a79d8e3758fecd9285c8af9089aaccaea95a35e7141168f8630",
+  "fast_core.py": "7324ac46a344f7cb9149c063d1ef1471e447a98ffc3757d47405bce3b5f70a2d",
+  "newton_solver.py": "551b9323503e948a314cbcf785a43bce7ba7f927ec38aa51eb924179c8f9828d",
+  "synthetic_inputs.py": "05295cedb40f5ce97088a0ca7a6d2cd6ab1aeaca6625440c00f6745764f6ea9c",
+  "audit_reference.py": "6cd039042c9a68f1714e526d4131885f80e671f4a4ee02addac60d801ec7df46",
+  "run_expanded.py": "0f90c6dd73b228ae552361181025cca6fca4d214d1c87e426328e088e2d420d4",
+  "EXPERIMENT_PROTOCOL.md": "20ae1545cc3aaa1f3885607cf3910d784bc2454fc4937d8a182f42385cc5ad76",
+  "GENERATOR_PROTOCOL.md": "6c8367aec86c3462cccf65af31a34d1a069058fe34fa75c30a0597152829a376"
+}

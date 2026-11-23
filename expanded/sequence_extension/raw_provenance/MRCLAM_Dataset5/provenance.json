@@ -1,0 +1,26 @@
+{
+  "source": "mirror",
+  "official": "https://asrl.utias.utoronto.ca/datasets/mrclam/index.html",
+  "mirror_repo": "doclorenzo/SLAM-Project",
+  "mirror_commit": "729e8e35c27e9cfcd86ecefa294fca86aa59e576",
+  "official_checksums_verified": false,
+  "sha256": {
+    "Barcodes.dat": "a3cc1f62e51ec864c5019e3d93b6ad33d9d707e85024bfe8dd014536e442e32f",
+    "Landmark_Groundtruth.dat": "039802b553e835121d102d8a85c20f34f50d2a31a089680a55802690c705eb9e",
+    "Robot1_Groundtruth.dat": "c7649bca04da87593794b267015f45b6c76f8f6c7add89dfc86c26c71ddd3bba",
+    "Robot1_Odometry.dat": "fe1bc3783e67f91aff373b70673b540eb738d18f3d4d787096efec9c4bc4ab43",
+    "Robot1_Measurement.dat": "710380387a209b7d19da315c71612a1d13a3e73c7194297d4ca556c688c7ddd4",
+    "Robot2_Groundtruth.dat": "153982952f5b755350faca93d720e1409ca767b18273d410ce357aa9247d50d4",
+    "Robot2_Odometry.dat": "b2eebb6923485f3f9dbfadc362c676aa9e413ada024c69c87d9fe2e56639889d",
+    "Robot2_Measurement.dat": "287ba12b9ddfeff0f9bb6680d83799deb786f5a1558b8afe017af9fcc1d5dec8",
+    "Robot3_Groundtruth.dat": "ab6c814587f9ec1380e72fd075d348a082b8d60bd2b2e1a35a3dc929135bca51",
+    "Robot3_Odometry.dat": "7810341c481e15d17531ecc0ff0f0c9883818f9f97ee273f45c8ca1c282d3d95",
+    "Robot3_Measurement.dat": "bd34544d601876d1022f3aab01362027e982b55182bbe954145d1475d2e5cad2",
+    "Robot4_Groundtruth.dat": "b1634214a92412f6738c22a133c7c5e1c4111b2825694201f91180df40f65fe7",
+    "Robot4_Odometry.dat": "bf24204107f30c402f248f044f2ba64425cc610a196288ec33507621019f6088",
+    "Robot4_Measurement.dat": "f9ad4fa0e045dd5703f911c8029e9eb918161abbf4fa36160a798601bd25a0e5",
+    "Robot5_Groundtruth.dat": "7b705536b1aee4a802c377bf8a21a83b8ea8cb8116a5e849eff173d9fd4a5fd5",
+    "Robot5_Odometry.dat": "faf1c2f12b9f92a1074e91e82da71f9a9b30d03d577cce2becd987f605f9c51d",
+    "Robot5_Measurement.dat": "e4b86b2f49658d3d560f82442755458ef5665091a2d93d2f12209c3147351539"
+  }
+}

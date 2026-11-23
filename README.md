@@ -1,12 +1,6 @@
-# SCI reproducibility package
+# Multisensor SCI weight optimization
 
-Download this repository using **Code → Download ZIP**, extract it, and run the following from the directory containing the parts. Python 3 and about 450 MiB of free disk space are sufficient for restoration.
-
-    python3 restore.py
-    cd sci-repro
-    python3 plotting/summarize_thresholds.py
-
-The restoration script verifies the SHA-256 digest of the complete archive before extracting it. Each part belongs to a single ZIP stream. To reproduce the other results, follow the instructions below from the restored sci-repro directory.
+This repository contains the implementation, inputs and archived results for the optimal-weight geometry and objective-error certificate experiments. Run the commands from the repository root with Python 3.12. The two robot summary commands require only the Python standard library.
 
 ## Inspect the reported results
 
